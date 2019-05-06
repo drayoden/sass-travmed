@@ -178,3 +178,27 @@ img {
     }
   }
 }
+
+
+// posts page
+.post-form-header {
+  padding: 0.5rem;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+
+  & > div:first-child {
+    text-align: center;
+  }
+
+  // fixed image size
+  img {
+    width: 150px;
+  }
+}
+
+@import 'mobile';
